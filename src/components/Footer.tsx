@@ -16,10 +16,13 @@ export default function Footer() {
           href="https://vdtsites.com"
           target="_blank"
           rel="noreferrer"
-          className="font-mono uppercase tracking-[0.18em] text-[10px] transition-opacity hover:opacity-70"
+          className="font-mono uppercase tracking-[0.18em] text-[10px] transition-opacity hover:opacity-80"
           style={{ color: "var(--theme-ink-muted)" }}
         >
-          Site by VDTSITES.COM
+          Website Designed and Custom Built by{" "}
+          <span className="underline underline-offset-2" style={{ color: "var(--theme-accent)" }}>
+            VDTSites.com
+          </span>
         </a>
       </div>
     </footer>
